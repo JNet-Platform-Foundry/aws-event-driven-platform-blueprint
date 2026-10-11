@@ -4,7 +4,7 @@
 The tools are public, in [jnet-platform-factory](https://github.com/jnet-platform-factory),
 and pinned here by tag or commit; this repository holds only **TENANT**'s
 configuration and the pipelines that apply it. It was rendered from
-[aws-event-driven-platform-blueprint](https://github.com/jnet-platform-factory/aws-event-driven-platform-blueprint) — the
+[aws-event-driven-platform-blueprint](https://github.com/JNet-Platform-Foundry/aws-event-driven-platform-blueprint) — the
 platform model, and the rules every pipeline follows, are in [PLATFORM.md](PLATFORM.md).
 
 | Environment  | AWS account                 | aws-vault profile        | Regions                               |

@@ -2,7 +2,7 @@
 
 How a tenant platform is organised, which repository owns what, and the rules that
 keep live infrastructure safe. Every platform repository rendered from
-[aws-event-driven-platform-blueprint](https://github.com/jnet-platform-factory/aws-event-driven-platform-blueprint)
+[aws-event-driven-platform-blueprint](https://github.com/JNet-Platform-Foundry/aws-event-driven-platform-blueprint)
 carries this file; change it in the blueprint, and carry the change to the tenants.
 
 ## 1. Public tooling, private configuration
@@ -46,7 +46,7 @@ jnet-platform-factory (PUBLIC)           tenant platform repo (PRIVATE)         
   required reviewers and allows `main` only.
 - **Organisational units are named for the environment, never the product**
   (`Workloads/NonProd`, `Workloads/Prod`), so one set of SCPs serves every organisation.
-  See [aws-account-bootstrap](https://github.com/jnet-platform-factory/aws-account-bootstrap).
+  See [aws-account-bootstrap](https://github.com/JNet-Platform-Foundry/aws-account-bootstrap).
 
 ## 3. Event buses: one per tenant, owned by the platform
 

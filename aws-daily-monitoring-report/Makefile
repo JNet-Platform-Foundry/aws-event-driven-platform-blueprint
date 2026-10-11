@@ -7,7 +7,7 @@
 #   make invoke STAGE=dev                            send a report now (a human, after a deploy)
 #   make verify-pin                                  TOOL_REF is still on the tool's main (no AWS)
 #
-# The tool is jnet-platform-factory/aws-daily-monitoring-report. It has no tags,
+# The tool is JNet-Platform-Foundry/aws-daily-monitoring-report. It has no tags,
 # so it is pinned by commit: `fetch` clones exactly TOOL_REF into .tool/<sha>/
 # (git-ignored) and refuses to run anything else. To upgrade, move TOOL_REF after
 # reading the tool's changes, and expect `changeset` to show no Replacement.
@@ -21,7 +21,7 @@
 
 SHELL := /bin/bash
 
-TOOL_REPO := https://github.com/jnet-platform-factory/aws-daily-monitoring-report.git
+TOOL_REPO := https://github.com/JNet-Platform-Foundry/aws-daily-monitoring-report.git
 TOOL_REF  := a0851d335c43058736f18c04ae413b5ed1f59059
 TOOL_DIR  := $(CURDIR)/.tool/$(TOOL_REF)
 

@@ -1,7 +1,7 @@
 # aws-account-bootstrap
 
 **TENANT**'s configuration for the public
-[aws-account-bootstrap](https://github.com/jnet-platform-factory/aws-account-bootstrap):
+[aws-account-bootstrap](https://github.com/JNet-Platform-Foundry/aws-account-bootstrap):
 the GitHub OIDC provider and the keyless deploy roles in each AWS account. No tool
 code lives here — the [Makefile](Makefile) clones the tool at a pinned commit into
 `.tool/<sha>/` and runs it against `configs/<account>.env`.
