@@ -5,7 +5,7 @@
 #   make execute STAGE=dev CHANGE_SET=<name>     execute a change set someone has read
 #   make delete-changeset STAGE=dev CHANGE_SET=<name>
 #
-# The product is jnet-platform-factory/aws-eventbridge-firehose-opensearch-forwarder,
+# The product is JNet-Platform-Foundry/aws-eventbridge-firehose-opensearch-forwarder,
 # deployed from the SAR application its own repository publishes. SAR_VERSION pins
 # it, and is the one thing to move: TEMPLATE_REF is its release tag, so `check`
 # reads the same version's parameters without AWS. Read the product's changes
@@ -23,7 +23,7 @@ SHELL := /bin/bash
 SAR_APPLICATION := AWS-EventBridge-Firehose-OpenSearch-Forwarder
 SAR_VERSION     := 1.6.0
 TEMPLATE_REF    := v$(SAR_VERSION)
-TEMPLATE_URL    := https://raw.githubusercontent.com/jnet-platform-factory/aws-eventbridge-firehose-opensearch-forwarder/$(TEMPLATE_REF)/template.yaml
+TEMPLATE_URL    := https://raw.githubusercontent.com/JNet-Platform-Foundry/aws-eventbridge-firehose-opensearch-forwarder/$(TEMPLATE_REF)/template.yaml
 
 STAGES := dev production
 STAGE  ?= dev

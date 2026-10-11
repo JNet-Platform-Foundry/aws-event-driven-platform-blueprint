@@ -1,7 +1,7 @@
 # aws-daily-monitoring-report
 
 **TENANT**'s deployment of the public
-[aws-daily-monitoring-report](https://github.com/jnet-platform-factory/aws-daily-monitoring-report):
+[aws-daily-monitoring-report](https://github.com/JNet-Platform-Foundry/aws-daily-monitoring-report):
 a scheduled Lambda that emails one account's health and cost report every day and,
 optionally, writes a JSON snapshot to an S3 bucket.
 

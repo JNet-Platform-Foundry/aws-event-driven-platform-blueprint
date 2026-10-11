@@ -9,7 +9,7 @@
 #   make sso-plan                 IAM Identity Center, in the management account (read-only)
 #   make sso-apply                create / update its permission sets, groups and assignments
 #
-# The tool itself lives in jnet-platform-factory/aws-account-bootstrap. This file
+# The tool itself lives in JNet-Platform-Foundry/aws-account-bootstrap. This file
 # only pins it and points it at configs/<ACCOUNT>.env: no tool code is copied here.
 # `fetch` clones exactly TOOL_REF into .tool/<sha>/ (git-ignored) and refuses to run
 # anything else. To upgrade, change TOOL_TAG and TOOL_REF together, after reading
@@ -22,7 +22,7 @@
 
 SHELL := /bin/bash
 
-TOOL_REPO := https://github.com/jnet-platform-factory/aws-account-bootstrap.git
+TOOL_REPO := https://github.com/JNet-Platform-Foundry/aws-account-bootstrap.git
 TOOL_TAG  := v0.0.6
 TOOL_REF  := 5d684ff1768c33eea34786735dce16fa41372f26
 TOOL_DIR  := $(CURDIR)/.tool/$(TOOL_REF)

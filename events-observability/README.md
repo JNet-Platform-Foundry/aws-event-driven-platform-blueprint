@@ -1,7 +1,7 @@
 # events-observability
 
 **TENANT**'s deployment of
-[aws-eventbridge-firehose-opensearch-forwarder](https://github.com/jnet-platform-factory/aws-eventbridge-firehose-opensearch-forwarder),
+[aws-eventbridge-firehose-opensearch-forwarder](https://github.com/JNet-Platform-Foundry/aws-eventbridge-firehose-opensearch-forwarder),
 from the Serverless Application Repository (SAR): an EventBridge rule on the tenant's
 event bus, delivery to OpenSearch through Firehose, and an SQS → SNS error digest.
 

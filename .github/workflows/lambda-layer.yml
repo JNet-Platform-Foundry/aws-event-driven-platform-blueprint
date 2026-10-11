@@ -83,7 +83,7 @@ jobs:
     steps:
       - name: Summary
         continue-on-error: true
-        uses: jnet-platform-factory/.github/actions/job-summary@v0.0.1
+        uses: JNet-Platform-Foundry/.github/actions/job-summary@v0.0.1
         with:
           title: lambda-layer
           needs: ${{ toJSON(needs) }}
