@@ -152,7 +152,7 @@ jobs:
     steps:
       - name: Summary
         continue-on-error: true
-        uses: jnet-platform-factory/.github/actions/job-summary@v0.0.1
+        uses: jnet-platform-factory/.github/actions/job-summary@v0.1.0
         with:
           title: aws-account-bootstrap — ${{ github.event_name == 'workflow_dispatch' && inputs.account || 'dev, production' }}
           needs: ${{ toJSON(needs) }}
