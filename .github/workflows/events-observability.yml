@@ -88,7 +88,7 @@ jobs:
     steps:
       - name: Summary
         continue-on-error: true
-        uses: JNet-Platform-Foundry/.github/actions/job-summary@v0.0.1
+        uses: JNet-Platform-Foundry/.github/actions/job-summary@v0.1.0
         with:
           title: events-observability
           needs: ${{ toJSON(needs) }}
